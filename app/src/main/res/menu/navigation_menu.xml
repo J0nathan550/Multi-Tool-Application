@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/calculatorMenu"
+        android:icon="@drawable/calculator"
+        android:iconTint="@color/white"
+        android:contentDescription="@string/calculator_title"
+        android:title="@string/calculator_title"/>
+    <item
+        android:id="@+id/timerMenu"
+        android:icon="@drawable/timer"
+        android:iconTint="@color/white"
+        android:contentDescription="@string/timer_title"
+        android:title="@string/timer_title"/>
+</menu>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/mainMenuFragment">
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.j0nathan550.multitoolapplication.MainMenuFragment"
+        android:label="Main Page"
+        tools:layout="@layout/fragment_main_menu" />
+    <fragment
+        android:id="@+id/calculatorMenu"
+        android:name="com.j0nathan550.multitoolapplication.CalculatorFragment"
+        android:label="Calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/timerMenu"
+        android:name="com.j0nathan550.multitoolapplication.TimerFragment"
+        android:label="Timer"
+        tools:layout="@layout/fragment_timer" />
+    <fragment
+        android:id="@+id/stopwatchMenu"
+        android:name="com.j0nathan550.multitoolapplication.StopWatchFragment"
+        android:label="Stop Watch"
+        tools:layout="@layout/fragment_stop_watch" />
+    <fragment
+        android:id="@+id/alarmClockMenu"
+        android:name="com.j0nathan550.multitoolapplication.AlarmClockFragment"
+        android:label="Alarm Clock"
+        tools:layout="@layout/fragment_alarm_clock" />
+    <fragment
+        android:id="@+id/calendarMenu"
+        android:name="com.j0nathan550.multitoolapplication.CalendarFragment"
+        android:label="Calendar"
+        tools:layout="@layout/fragment_calendar" />
+    <fragment
+        android:id="@+id/googleMapsMenu"
+        android:name="com.j0nathan550.multitoolapplication.GoogleMapsFragment"
+        android:label="Google Maps"
+        tools:layout="@layout/fragment_google_maps" />
+    <fragment
+        android:id="@+id/notepadMenu"
+        android:name="com.j0nathan550.multitoolapplication.NotepadFragment"
+        android:label="Notepad"
+        tools:layout="@layout/fragment_notepad" />
+    <fragment
+        android:id="@+id/converterMenu"
+        android:name="com.j0nathan550.multitoolapplication.MoneyConverterFragment"
+        android:label="Converter"
+        tools:layout="@layout/fragment_money_converter" />
+    <fragment
+        android:id="@+id/informationMenu"
+        android:name="com.j0nathan550.multitoolapplication.InformationFragment"
+        android:label="fragment_information"
+        tools:layout="@layout/fragment_information" />
+    <fragment
+        android:id="@+id/developerMenu"
+        android:name="com.j0nathan550.multitoolapplication.DeveloperFragment"
+        android:label="fragment_developer"
+        tools:layout="@layout/fragment_developer" />
+</navigation>

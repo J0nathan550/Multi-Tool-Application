@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/nothing" >
+        <menu>
+
+        </menu>
+    </item>
+    <item android:title="@string/applications_title" android:iconTint="@color/white">
+        <menu>
+            <item
+                android:id="@+id/calculatorMenu"
+                android:icon="@drawable/calculator"
+                android:iconTint="@color/white"
+                android:textColor="@color/white"
+                android:contentDescription="@string/calculator_title"
+                android:title="@string/calculator_title"/>
+            <item
+                android:id="@+id/timerMenu"
+                android:icon="@drawable/timer"
+                android:iconTint="@color/white"
+                android:contentDescription="@string/timer_title"
+                android:title="@string/timer_title"/>
+            <item
+                android:id="@+id/stopwatchMenu"
+                android:icon="@drawable/stopwatch"
+                android:iconTint="@color/white"
+                android:contentDescription="@string/stopwatch_title"
+                android:title="@string/stopwatch_title"/>
+            <item
+                android:id="@+id/alarmClockMenu"
+                android:icon="@drawable/alarm_clock"
+                android:iconTint="@color/white"
+                android:contentDescription="@string/alarm_clock_title"
+                android:title="@string/alarm_clock_title"/>
+            <item
+                android:id="@+id/calendarMenu"
+                android:icon="@drawable/calendar_menu"
+                android:iconTint="@color/white"
+                android:contentDescription="@string/calendar_title"
+                android:title="@string/calendar_title"/>
+            <item
+                android:id="@+id/googleMapsMenu"
+                android:icon="@drawable/google_maps"
+                android:iconTint="@color/white"
+                android:contentDescription="@string/google_maps_title"
+                android:title="@string/google_maps_title"/>
+            <item
+                android:id="@+id/notepadMenu"
+                android:icon="@drawable/notepad"
+                android:iconTint="@color/white"
+                android:contentDescription="@string/notepad_title"
+                android:title="@string/notepad_title"/>
+            <item
+                android:id="@+id/converterMenu"
+                android:icon="@drawable/converter"
+                android:iconTint="@color/white"
+                android:contentDescription="@string/money_converted_title"
+                android:title="@string/money_converted_title"/>
+            <item
+                android:id="@+id/weatherMenu"
+                android:icon="@drawable/converter"
+                android:iconTint="@color/white"
+                android:contentDescription="@string/money_converted_title"
+                android:title="@string/money_converted_title"/>
+        </menu>
+    </item>
+    <item android:title="@string/others_title">
+        <menu>
+            <item android:icon="@drawable/information" android:id="@+id/informationMenu" android:title="@string/information_title"/>
+            <item android:icon="@drawable/developer" android:id="@+id/developerMenu" android:title="@string/about_developer_title"/>
+        </menu>
+    </item>
+</menu>
