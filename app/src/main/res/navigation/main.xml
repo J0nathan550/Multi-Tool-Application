@@ -60,4 +60,9 @@
         android:name="com.j0nathan550.multitoolapplication.DeveloperFragment"
         android:label="fragment_developer"
         tools:layout="@layout/fragment_developer" />
+    <fragment
+        android:id="@+id/weatherMenu"
+        android:name="com.j0nathan550.multitoolapplication.WeatherFragment"
+        android:label="fragment_weather"
+        tools:layout="@layout/fragment_weather"/>
 </navigation>

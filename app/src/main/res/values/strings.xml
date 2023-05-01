@@ -45,4 +45,20 @@
     <string name="default_timer_time">00</string>
     <string name="up_arrow_timer">▲</string>
     <string name="down_arrow_timer">▼</string>
+    <string name="weather">Weather</string>
+    <string name="city_name">City Name</string>
+    <string name="weather_by_name">Weather By Name</string>
+    <string name="weather_by_id">Weather by ID</string>
+    <string name="get_city_id">Get City ID</string>
+    <string name="default_city">City:</string>
+    <string name="default_region">Region:</string>
+    <string name="default_country">Country:</string>
+    <string name="default_timezone">Timezone:</string>
+    <string name="default_local_time">Local Time:</string>
+    <string name="default_last_updated">Last Updated:</string>
+    <string name="default_temperature">Temperature:</string>
+    <string name="default_condition">Condition:</string>
+    <string name="default_humidity">Humidity:</string>
+    <string name="default_cloud">Cloud:</string>
+    <string name="default_update">update</string>
 </resources>

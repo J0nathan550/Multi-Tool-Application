@@ -58,10 +58,10 @@
                 android:title="@string/money_converted_title"/>
             <item
                 android:id="@+id/weatherMenu"
-                android:icon="@drawable/converter"
+                android:icon="@drawable/baseline_cloud_24"
                 android:iconTint="@color/white"
-                android:contentDescription="@string/money_converted_title"
-                android:title="@string/money_converted_title"/>
+                android:contentDescription="@string/weather"
+                android:title="@string/weather"/>
         </menu>
     </item>
     <item android:title="@string/others_title">
